@@ -83,3 +83,14 @@ and fascinating miniature worlds.
 
 This project demonstrates creativity, visual storytelling,
 and AI video generation skills.
+## Project 5: Octopus Secrets That Shocked Monkey
+
+An imaginative animal adventure featuring a monkey and an octopus.
+
+[▶ Watch Project 5 on YouTube](https://youtu.be/hlaiiUHlcj8?si=X5GZTEN_df4b2M-3)
+
+## Project 6: Monkey vs Tortoise
+
+An entertaining animal story featuring a monkey and a tortoise.
+
+[▶ Watch Project 6 on YouTube](https://youtu.be/m3XbcbZNWpY?si=FrXwE8Y30fVEjdgS)
