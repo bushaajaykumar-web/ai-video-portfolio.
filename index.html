@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Ajaykumar Busha — AI video creator, creative storyteller, prompt designer, and visual content creator.">
+<title>Ajaykumar Busha | AI Video & Creative Portfolio</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2d;--panel2:#17223a;--text:#f4f7ff;--muted:#b7c1d8;--accent:#7c9cff;--accent2:#55e6c1;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top right,#1b2a50 0%,transparent 42%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit}.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:.3px}.brand span{color:var(--accent2)}.navlinks{display:flex;gap:20px;flex-wrap:wrap}.navlinks a{text-decoration:none;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:var(--text)}
+.hero{padding:76px 0 58px;display:grid;grid-template-columns:1.45fr .8fr;gap:34px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--accent2);font-size:.84rem;background:rgba(255,255,255,.03)}.dot{height:7px;width:7px;border-radius:50%;background:var(--accent2)}h1{font-size:clamp(2.4rem,6vw,4.6rem);line-height:1.05;letter-spacing:-2px;margin:20px 0}h1 em{font-style:normal;color:var(--accent)}.lead{font-size:1.1rem;color:var(--muted);max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-block;text-decoration:none;border-radius:12px;padding:12px 18px;font-weight:750;border:1px solid var(--line);transition:.2s}.btn.primary{background:linear-gradient(120deg,var(--accent),#9d8cff);color:#091020;border:0}.btn.secondary{background:rgba(255,255,255,.04)}.btn:hover{transform:translateY(-2px)}.hero-card{background:linear-gradient(145deg,rgba(124,156,255,.18),rgba(85,230,193,.08));border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:0 20px 70px rgba(0,0,0,.2)}.hero-card h2{margin:0 0 14px;font-size:1.2rem}.taglist{display:flex;flex-wrap:wrap;gap:9px}.tag{font-size:.85rem;color:#dce5ff;background:rgba(255,255,255,.07);border:1px solid var(--line);padding:7px 10px;border-radius:9px}
+section{padding:40px 0}.section-title{font-size:1.8rem;margin:0 0 8px;letter-spacing:-.5px}.section-intro{color:var(--muted);margin:0 0 24px;max-width:760px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.card{background:linear-gradient(160deg,rgba(255,255,255,.055),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:18px;padding:23px}.card h3{margin:0 0 7px;font-size:1.14rem}.card p{color:var(--muted);margin:0 0 14px}.project-type{font-size:.76rem;text-transform:uppercase;letter-spacing:1.1px;color:var(--accent2);font-weight:800;margin-bottom:9px}.text-link{display:inline-block;color:#b9caff;text-decoration:none;font-weight:750;margin-top:4px}.text-link:hover{color:white}.placeholder{color:#9ba9c5;font-size:.88rem;font-style:italic}.skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.skill{padding:17px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.035)}.skill strong{display:block;margin-bottom:4px}.skill span{color:var(--muted);font-size:.92rem}.process{counter-reset:step;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.step{border-top:2px solid var(--accent);padding-top:13px;color:var(--muted)}.step strong{display:block;color:var(--text);margin-bottom:5px}.contact{background:linear-gradient(130deg,rgba(124,156,255,.13),rgba(85,230,193,.07));border:1px solid var(--line);border-radius:22px;padding:30px}.contact p{color:var(--muted)}.contact-details{display:flex;gap:12px;flex-wrap:wrap}.contact-details a{word-break:break-word}.note{font-size:.86rem;color:#9caac4;margin-top:18px}footer{border-top:1px solid var(--line);padding:25px 0 35px;color:#96a4c0;font-size:.9rem;margin-top:35px}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:48px}.grid{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,minmax(0,1fr))}.process{grid-template-columns:repeat(2,minmax(0,1fr))}.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:13px}h1{letter-spacing:-1.3px}}
+@media(max-width:420px){.skills,.process{grid-template-columns:1fr}.card,.hero-card{padding:19px}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <nav class="nav" aria-label="Main navigation">
+    <div class="brand">AJAYKUMAR <span>BUSHA</span></div>
+    <div class="navlinks"><a href="#about">About</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+  </nav>
+</header>
+<main>
+  <section class="wrap hero" id="about">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> AI Video Creator · Creative Content</div>
+      <h1>Turning ideas into <em>visual stories.</em></h1>
+      <p class="lead">I'm Ajaykumar Busha, a creative video maker focused on AI-generated animation, cartoon and anime-style storytelling, scene-by-scene video creation, educational content, and interior-design visuals. I enjoy turning a concept into a clear visual story—from writing prompts and planning scenes to creating polished video content.</p>
+      <div class="actions">
+        <a class="btn primary" href="#work">Explore My Projects ↓</a>
+        <a class="btn secondary" href="#contact">Contact Me</a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <h2>Creative focus</h2>
+      <div class="taglist">
+        <span class="tag">AI Video Generation</span><span class="tag">Prompt Writing</span>
+        <span class="tag">Story Development</span><span class="tag">Cartoon & Anime</span>
+        <span class="tag">Scene Planning</span><span class="tag">Visual Design</span>
+        <span class="tag">Educational Videos</span><span class="tag">Interior Visuals</span>
+      </div>
+      <p class="note">Portfolio links can be added as each project is approved for public sharing.</p>
+    </aside>
+  </section>
 
+  <section class="wrap" id="work">
+    <h2 class="section-title">Selected Projects</h2>
+    <p class="section-intro">A selection of creative concepts and video work. Replace each “Add project link” button with the relevant YouTube, Drive, or published portfolio URL before sending this page to employers.</p>
+    <div class="grid">
+      <article class="card">
+        <div class="project-type">AI Animation · Project 01</div>
+        <h3>AI Cartoon Animation</h3>
+        <p>AI-assisted cartoon video creation combining prompt design, character-led scenes, visual storytelling, and animation-style presentation.</p>
+        <a class="text-link" href="https://youtu.be/7wLfwUzENoQ" target="_blank" rel="noopener">▶ Watch Project →</a>
+      </article>
+      <article class="card">
+        <div class="project-type">Adventure Story · Project 02</div>
+        <h3>Monkey Egypt Adventure</h3>
+        <p>An imaginative adventure concept built around a monkey character, an Egyptian setting, and story-driven visual scenes.</p>
+        <a class="text-link" href="#contact">Add project link →</a>
+      </article>
+      <article class="card">
+        <div class="project-type">Adventure Story · Project 03</div>
+        <h3>Monkey's Epic Amazon Adventure</h3>
+        <p>A jungle-adventure concept focused on world building, environmental details, character action, and cinematic storytelling.</p>
+        <a class="text-link" href="#contact">Add project link →</a>
+      </article>
+      <article class="card">
+        <div class="project-type">Fantasy Story · Project 04</div>
+        <h3>The Lost Ant Kingdom</h3>
+        <p>A fantasy concept exploring a miniature kingdom through imaginative environments, story beats, and character-driven scenes.</p>
+        <a class="text-link" href="#contact">Add project link →</a>
+      </article>
+      <article class="card">
+        <div class="project-type">Design Visualization</div>
+        <h3>AI Interior Design Visuals</h3>
+        <p>Interior-focused visual content created for studio-related work. Public samples should be shared only where client or studio permission allows.</p>
+        <a class="text-link" href="#contact">Request approved samples →</a>
+      </article>
+      <article class="card">
+        <div class="project-type">Learning Content</div>
+        <h3>Educational Video Content</h3>
+        <p>Experience creating teaching-oriented video content, including videos intended for medical-student learning.</p>
+        <a class="text-link" href="#contact">Ask about samples →</a>
+      </article>
+    </div>
+    <p class="note">Important: these are project descriptions, not claims of a specific client, view count, or measurable result. Add only links and details you can verify.</p>
+  </section>
+
+  <section class="wrap" id="skills">
+    <h2 class="section-title">Skills & Workflow</h2>
+    <p class="section-intro">Creative strengths that can support AI-video, animation-content, and visual-content teams.</p>
+    <div class="skills">
+      <div class="skill"><strong>Prompt Engineering</strong><span>Writing detailed prompts for visuals and video scenes.</span></div>
+      <div class="skill"><strong>Story & Script Ideas</strong><span>Developing concepts, story beats, and engaging narratives.</span></div>
+      <div class="skill"><strong>Scene-by-Scene Planning</strong><span>Breaking a story into consistent, production-ready scenes.</span></div>
+      <div class="skill"><strong>Character & World Design</strong><span>Building characters, environments, and visual continuity.</span></div>
+      <div class="skill"><strong>AI Video Production</strong><span>Creating visual content with AI-assisted tools and workflows.</span></div>
+      <div class="skill"><strong>Creative Collaboration</strong><span>Adapting content to a brief, audience, and project goal.</span></div>
+    </div>
+    <h3 style="margin-top:32px">My creative process</h3>
+    <div class="process">
+      <div class="step"><strong>01 · Understand</strong>Clarify the brief, audience, and visual direction.</div>
+      <div class="step"><strong>02 · Plan</strong>Develop the concept, prompts, script, and scenes.</div>
+      <div class="step"><strong>03 · Create</strong>Generate and refine visuals with attention to consistency.</div>
+      <div class="step"><strong>04 · Review</strong>Check the story flow and prepare the final presentation.</div>
+    </div>
+  </section>
+
+  <section class="wrap" id="contact">
+    <div class="contact">
+      <h2 class="section-title">Let's create something memorable.</h2>
+      <p>I'm interested in opportunities involving AI video creation, creative storytelling, cartoon or anime content, educational videos, and visual-content production. I'd be happy to discuss my workflow and share relevant samples.</p>
+      <div class="contact-details">
+        <a class="btn primary" href="mailto:YOUR_EMAIL@example.com?subject=Portfolio%20Enquiry">Email Me</a>
+        <a class="btn secondary" href="https://github.com/bushaajaykumar-web/ai-video-portfolio" target="_blank" rel="noopener">GitHub Repository</a>
+      </div>
+      <p class="note">Before publishing: replace YOUR_EMAIL@example.com with your professional email, add working project links, and remove any project you do not have permission to share.</p>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Ajaykumar Busha · AI Video & Creative Portfolio</div></footer>
+</body>
+</html>
