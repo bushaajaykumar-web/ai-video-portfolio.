@@ -42,3 +42,44 @@ of ancient Egypt.
 
 This project showcases my creativity, storytelling,
 AI video generation, and cinematic scene planning.
+---
+
+## Project 3: Monkey's Epic Amazon Adventure 🐒🌴
+
+**Project Type:** AI Animated Adventure
+
+**Skills:** AI Video Generation, Prompt Engineering,
+Creative Storytelling, Character Design, Animation
+
+### Watch My Video
+
+[Watch Monkey's Epic Amazon Adventure on YouTube](https://youtu.be/sEp1d0nGpcU?si=xpgHmf5YJ1jotfRz)
+
+### Project Description
+
+An exciting animated adventure following a monkey
+through the mysterious Amazon rainforest. This project
+showcases creative storytelling, imaginative environments,
+and AI-assisted animation.
+
+---
+
+## Project 4: The Lost Ant Kingdom 🐜👑
+
+**Project Type:** AI Animated Fantasy Adventure
+
+**Skills:** AI Video Generation, Storytelling,
+Character Design, World Building, Animation
+
+### Watch My Video
+
+[Watch The Lost Ant Kingdom on YouTube](https://youtu.be/ng2Dr4OaJ_U?si=h-GqIlRQqHLS75to)
+
+### Project Description
+
+An imaginative animated adventure exploring a lost
+kingdom of ants, filled with mystery, discovery,
+and fascinating miniature worlds.
+
+This project demonstrates creativity, visual storytelling,
+and AI video generation skills.
