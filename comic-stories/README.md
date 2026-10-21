@@ -1,9 +1,9 @@
-# 📖 Comic Story 1
+# 📖 vikram and bhetaal
 
 Welcome to my first comic story!
 
 ## 📚 Story Details
-- **Story Number:** vikram and bhetaal
+- **Story Number:** 1
 - **Language:** English
 - **Category:** Comic Story
 - **Creator:** Ajay Kumar
